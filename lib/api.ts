@@ -1,6 +1,6 @@
 import axios from "axios"
-import type { NewNote, Note } from "@/app/lib/types/note";
-import type { NoteList } from "@/app/lib/types/noteList"
+import type { NewNote, Note } from "@/types/note";
+import type { NoteList } from "@/types/noteList"
 
 const NOTEHUB_TOKEN = process.env.NEXT_PUBLIC_NOTEHUB_TOKEN
 
