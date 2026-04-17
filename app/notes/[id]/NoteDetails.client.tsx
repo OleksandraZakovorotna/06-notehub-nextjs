@@ -2,7 +2,7 @@
 
 import { useQuery } from "@tanstack/react-query";
 import css from "./page.module.css";
-import { fetchNoteById } from "@/app/lib/fetchNoteById";
+import { fetchNoteById } from "@/lib/fetchNoteById";
 import { useParams } from "next/navigation";
 
 export default function NoteClient() {
